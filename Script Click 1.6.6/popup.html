@@ -1,0 +1,38 @@
+<html>
+<title>Internet </title>
+<head>
+<link rel="stylesheet" type="text/css" href="popup.css"></link>
+</head>
+<body>
+	<div id ="infoBack">
+		<div id="header"><h2>Script Click</h2></div>
+		<div id="infoBlock">
+			<button id="disable" class="controls" title="Disable Script Click"><img src="images/on.png"/></button>
+			<button id="blockButton" class="controls" title="Block All Scripts"><img src="images/unBlock.png"/></button>
+			<button id="refresh" class="controls" title="Refresh Tab"><img src="images/refresh.png"/></button>
+			<button id="fanBoy" class="controls" title="Enable Ad Blocker (experimental)"/><img src="images/fanBoyOff.png"/></button>
+			<button id="media" class="controls" title="Block video on domain"><img src="images/media.png"/></button>
+			<button id="sync" class="controls" title="Sync With Google Account"><img src="images/sync.png"/></button>
+			<a id='undo' href="#">Undo</a>
+			<a id="lists" href="lists.html">Options</a>
+			<div class="clear"></div>
+		</div>
+		<hr style="margin-bottom: 0px"></hr>
+	</div>
+
+	<div id='whiteSpace'></div>
+	<h4 id='whiteListDisplay'><a href='lists.html'>White Listed</a></h4>
+	<hr id='whiteListLine'/>
+	<a id='whiteListButton' href='#' title="Add page to White List"><img src='images/add.png'/></a>
+	<a id='expand' href="#"><img src="images/expand.png"/></a>
+	<div id="blockList" style="width:340px"></div>
+	<div id='imgClick'><a href='#'>-Display All-</a></div>
+	<div id="settingBlock">
+		<a id="donate" href="donate.html">Donate</a>
+		<a id="help" title="Help" href="help.html">Help</a>	
+	</div>
+	<h3 id="syncBox">Synced</h3>
+</body>
+<script src="menu.js"></script>
+<script src="popup.js"></script>
+</html>

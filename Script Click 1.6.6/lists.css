@@ -1,0 +1,279 @@
+
+body {
+	margin: 0;
+	width: 340px;
+}
+
+hr {
+	width:100%;
+}
+
+form {
+	margin-bottom: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+#infoBack {
+	position: fixed;
+}
+
+#listBlock {
+	position: relative;
+	top:175px;
+	margin-bottom: 100px;
+}
+
+
+#header {
+	background-color: #171354;
+	width:100%;
+	margin-top: 0;
+	padding-top: 3px;
+}
+
+#header h2 {
+	color: lightgrey;
+	padding-left: 5px;
+	margin-bottom:0px;
+}
+
+#update {
+	margin: 5px 0px 10px 10px;
+}
+
+.title {
+	display: inline-block;
+	margin: 0;
+}
+
+.white {
+	display: inline-block;
+}
+
+.description {
+	display: inline-block;
+	margin: 0 0 5 0;
+}
+
+#elementBox {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 6px;
+}
+
+#elementBlocking {
+	display: inline-block;
+	margin: 10 0 5 5;	
+}
+
+.warning {
+	margin: 0 0 0 28;
+}
+
+#whiteButtonGrp {
+	display: inline-block;
+	margin: 10 10 0 20;
+}
+
+#whiteButtonGrp p {
+	margin: 5 0 10 0;
+	width: 20px;
+}
+
+#addButton {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+#addButton img {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#whiteTxtGrp {
+	display: inline-block;
+	margin: 10 10 0 0;
+	vertical-align: top;
+	width: 75%;
+}
+
+#currentDomain {
+	margin: 0 0 5 5;
+	padding: 3 5 3 5;
+	vertical-align: top;
+	border: 1px solid grey;
+}
+
+#advancedSettings {
+	margin: 0 0 5 15;
+}
+
+#advancedSettings button {
+	width: 10px;
+	height: 10px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: transparent;
+	border: none;
+}
+
+#advancedSettings img {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+}
+
+#advancedSettings a {
+	display: inline-block;
+}
+
+
+#listButton {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+#listButton img {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#listButton p {
+	margin: 5 0 0 0;
+	width: 20px;
+	text-align: center;
+}
+
+.adLists {
+	margin: 5 0 5 10;
+}
+
+.adListLink {
+	padding: 0 5 0 5;
+}
+
+#hStart {
+	padding: 0 0 0 10;
+	margin: 0 10 0 0;
+}
+
+.hCont {
+	padding: 0 0 0 10;
+	margin: 20 10 0 0;
+}
+
+#buttonGroup {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#whiteFilters {
+	margin: 0 0 0 5;
+	padding: 5 5 5 5;
+	border: 1px solid grey;
+	display: none;
+}
+
+#advTxt {
+	margin: 0 0 6 0;
+}
+
+.whiteButton {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.whiteButton img {
+	width: 95%;
+}
+
+#addButtonInfo, #listButtonInfo {
+	display:inline-block;
+	width: 70px;
+	margin: 10;
+}
+
+#settingBlock {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #171354;
+}
+
+#whiteLeftColumn {
+	display: inline-block;
+}
+
+#whiteRightColumn {
+	display: inline-block;
+}
+
+#whiteCenterColumn{
+	margin: auto;
+}
+
+#help {
+	float: right;
+	padding-right: 14px;
+}
+
+#donate {
+	float: left;
+	padding-left: 14px;
+}
+
+.scriptButton {
+	margin: 0 0 0 5;
+	padding: 0;
+	background: none;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	text-decoration: none;	
+}
+
+.scriptButton p {
+	margin: 0;
+	padding: 0;
+}
+
+#donate, #help{
+	color: lightgrey;
+	margin-top:10px;
+	margin-bottom: 0px;
+	background: none;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	text-decoration: none;
+}
+

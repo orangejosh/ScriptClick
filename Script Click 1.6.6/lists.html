@@ -1,0 +1,130 @@
+<html>
+<title>Internet </title>
+<head>
+<link rel="stylesheet" type="text/css" href="lists.css"></link>
+<link rel="stylesheet" type="text/css" href="popup.css"></link>
+</head>
+<body>
+
+	<div id ="infoBack">
+		<div id="header"><h2>Script Click</h2></div>
+		<div id="infoBlock">
+			<button id="disable" class="controls" title="Disable Script Click"><img src="images/on.png"/></button>
+			<button id="blockButton" class="controls" title="Block All Scripts"><img src="images/unBlock.png"/></button>
+			<button id="refresh" class="controls" title="Refresh Tab"><img src="images/refresh.png"/></button>
+			<button id="fanBoy" class="controls" title="Enable Ad Blocker (experimental)"/><img src="images/fanBoyOff.png"/></button>
+			<button id="media" class="controls" title="Block video on domain"><img src="images/media.png"/></button>
+			<button id="sync" class="controls" title="Sync With Google Account"><img src="images/sync.png"/></button>
+			<a id='backButton' href='popup.html'>Back</a>
+			<div class="clear"></div>
+		</div>
+		<hr style="margin-bottom: 0px"></hr>
+	</div>
+
+	<div id='whiteSpace'></div>
+	<h4 id='whiteListDisplay'><a href='lists.html'>White Listed</a></h4>
+	<hr id='whiteListLine'/>
+	
+	<div id="listBlock">
+		<div class='clear'></div>
+
+		<h3 id="hStart" class='title'>Third Party Filters (Ad Blocker)</h3><p class='title'>experimental</p>
+		<hr/>
+
+		<form class='white' action="">
+			<input id='easyList' class="adLists" type="checkbox"><a id='easyListLink' class='adListLink' href ='#'>Easy List</a></input>
+		</form>
+		<p class='description'>Basic ad blocking.</p>
+		<br/>
+
+		<form class='white' action="">
+			<input id='easyPrivacy' class="adLists" type="checkbox"><a id='easyPrivacyLink' class='adListLink' href ='#'>Easy Privacy List</a></input>
+		</form>
+		<p class='description'>Basic tracker blocking.</p>
+		<br/>
+
+		<form class='white' action="">
+			<input id='fanboySocial' class="adLists" type="checkbox"><a id='fanboySocialLink' class='adListLink' href ='#'>Fanboy Social List</a></input>
+		</form>
+		<p class='description'>Social tracker blocking.</p>
+		<br/>
+
+		<form class='white' action="">
+			<input id='fanboyAnnoy' class="adLists" type="checkbox"><a id='fanboyAnnoyLink' class='adListLink' href ='#'>Fanboy Annoyance List</a></input>
+		</form>
+		<p class='description'>Annoying element blocking.</p>
+		<br/>
+
+		<form class='white' action="">
+			<input id='fanboyTracker' class="adLists" type="checkbox"><a id='fanboyTrackerLink' class='adListLink' href ='#'>Fanboy Tracker List</a></input>
+		</form>
+		<p class='description'>Enhanced tracker blocking.</p>
+		<br/>
+
+		<form id='elementBox' action="">
+			<input id='elementDisable' class="adLists" type="checkbox"></input>
+		</form>
+		<p id='elementBlocking'>Element Filters Disabled <br/> (websites load faster but don't look as good)</p>
+		<br/>
+
+		<button id='update' disabled>Update</button>
+		<br/>
+
+		<h3 class='hCont title'>White List</h3><p class='title'>(Disables third party filters on this domain)</p>
+		<hr/>
+
+		<div id='whiteButtonGrp'>
+			<button id='addButton'><img src='images/add.png'/></button>
+			<p id='addButtonLabel'>Add</p>
+		</div>
+
+		<div id='whiteTxtGrp'>
+			<p id='currentDomain'></p>
+
+			<div id='advancedSettings'>
+				<button><img src='images/add.png'/></button>
+				<a id='advButton' href='javascript:void(0)'>Advanced Settings</a>
+			</div>
+
+			<div id='whiteFilters'>
+				<p id='advTxt'>Allow checked filters.</p>
+				<div id='whiteLeftColumn'>
+					<form action="">
+						<input id='whiteEasy' type="checkbox">Easy List</input>
+					</form>
+					<form action="">
+						<input id='whitePrivacy' type="checkbox">Easy Privacy</input>
+					</form>
+				</div>
+				<div id='whiteRightColumn'>
+					<form action="">
+						<input id='whiteFanSocial' type="checkbox">Fanboy Social List</input>
+					</form>
+					<form action="">
+						<input id='whiteFanAnnoy' type="checkbox">Fanboy Annoyance List</input>
+					</form>
+				</div>
+				<br/>
+				<div id='whiteCenterColumn'>
+					<form action="">
+						<input id='whiteFanTracker' type="checkbox">Fanboy Tracker List</input>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<h3 class='hCont'>My Filters</h3>
+		<hr/>
+		<div id='blackList'></div>
+	</div>
+
+	<div id="settingBlock">
+		<a id="donate" href="donate.html">Donate</a>
+		<a id="help" title="Help" href="help.html">Help</a>	
+	</div>
+	<h3 id="syncBox">Synced</h3>
+</body>
+<script src="lists.js"></script>
+<script src="menu.js"></script>
+<script src='popup.js'></script>
+</html>

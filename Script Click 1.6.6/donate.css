@@ -1,0 +1,113 @@
+
+body {
+	margin: 0;
+	width: 340px;
+	/*height: 200px;*/
+}
+
+#header {
+	background-color: #171354;
+	width:100%;
+	margin-top: 0;
+	padding-top: 3px;
+}
+
+#header h2 {
+	color: lightgrey;
+	padding-left: 5px;
+	margin-bottom:0px;
+}
+
+#backButton {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.clear {
+	clear:both;
+}
+
+p {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin:0;
+}
+
+h3 {
+	text-align: center;
+	margin:0 0 10 0;
+}
+
+p {
+	text-align: center;
+	padding: 10 20 20 20;
+}
+
+.donateTitle {
+	text-decoration: none;
+	color:black;
+}
+
+#bitcoinButton img{
+	margin-left: 120px;
+	margin-bottom:20px;
+	width:100px;
+}
+
+#liteCoinButton img{
+	margin-left: 120px;
+	margin-bottom:20px;
+	width:100px;
+}
+
+#paypalButton img{
+	margin-left: 88px;
+	margin-bottom:70px;
+	width:171px;
+}
+
+#bitCoinAddImg {
+	margin-left: 70px;
+	width: 200px;
+}
+
+#bitCoinAdd {
+	margin-bottom: 50px;
+}
+
+#settingBlock {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #171354;
+}
+
+#help {
+	float: right;
+	padding-right: 14px;
+}
+
+#donate {
+	float: left;
+	padding-left: 14px;
+}
+
+#donate, #help{
+	color: lightgrey;
+	margin-top:10px;
+	margin-bottom: 0px;
+	background: none;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	text-decoration: none;
+}
+

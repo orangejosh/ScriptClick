@@ -1,0 +1,266 @@
+body {
+	margin:auto;
+}
+
+#infoBack{
+	width:100%;
+	background-color: white;
+	z-index: 2;
+}
+
+#infoBlock{
+	width: 340px;
+}
+
+#header {
+	background-color: #171354;
+	width:100%;
+	margin-top: 0;
+	padding-top: 3px;
+}
+
+#header h2 {
+	color: lightgrey;
+	padding-left: 5px;
+	margin-bottom:0px;
+}
+
+.controls {
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin: 20px 8px 20px 8px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.controls img {
+	width: 95%;
+}
+
+#undo {
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	background: none;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.helpControls {
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin: 20px 8px 5px 8px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.helpControls img {
+	width: 95%;
+}
+
+.helpText {
+	float: left;
+	width: 48px;
+	margin: 0 4 10 4;
+	text-align: center;
+}
+
+.controls:focus {
+	outline: none;
+}
+
+#donate {
+	float: left;
+	padding-left: 14px;
+}
+
+a#donate {
+	color: lightgrey;
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+
+#expand {
+	display: none;
+	position: fixed;
+	top: 147px;
+	right: 17px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#expand img {
+	height: 13px;
+	width: 20px;
+}
+
+#lists, #backButton {
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	background: none;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	color: black;
+	text-decoration: none;
+}
+
+#imgClick {
+	display: none;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+#imgClick a{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#help {
+	float: right;
+	padding-right: 14px;
+}
+
+a#help {
+	color: lightgrey;
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+#whiteSpace {
+	 position: fixed;
+	 width: 100%;
+	 height: 21px;
+	 background-color: white;
+	 top:143px;
+	 z-index: 1;
+}
+
+#whiteListDisplay {
+	position: fixed;
+	text-align: center;
+	display: none;
+	top: 146px;
+	margin: 0;
+	left:40%;
+	z-index: 1
+}
+
+#whiteListButton {
+	position: fixed;
+	z-index: 2;
+	top: 146px;
+}
+
+#whiteListButtonHelp {
+	display: inline-block;
+	width: 15px;
+	margin-left: 10px;
+}
+
+#whiteListAddDesc {
+	display: inline-block;
+	margin: 0 0 0 70px;
+	vertical-align: top;
+}
+
+#whiteListButton img {
+	width: 15px;
+	margin-left: 10px;
+}
+
+#whiteListDisplay a {
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+#whiteListLine {
+	position: fixed;
+	top: 158px;
+	width: 100%;
+	z-index: 1;
+}
+
+#whiteListLineHelp {
+	margin: 0;
+}
+
+.scriptButton, #donate, #help{
+	background: none;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	color: black;
+}
+
+.scriptButton p {
+	margin: 0;
+}
+
+.fullURL {
+	display: none;
+}
+
+#blockList {
+	position: relative;
+	top:165px;
+	margin-bottom: 70px;
+}
+
+#scriptList, .helpWords{
+	text-align: center;
+	padding: 10 20 20 20;
+}
+
+#settingBlock {
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #171354;
+}
+
+.noScripts {
+	text-align: center;
+}
+
+#syncBox {
+	display:none;
+	position: absolute;
+	border: 1px solid #171354;
+	margin: auto;
+	left:40%;
+	z-index: 2;
+	padding: 10 10 10 10;
+	border-radius: 5px;
+	background-color: white;
+
+	position: fixed;
+	top: 180px;
+}
+
+
+
